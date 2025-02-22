@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Aiko Inoue</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      nav {
+        display: flex;
+        justify-content: center; /* Centers the nav horizontally */
+        align-items: center; /* Centers the nav vertically */
+        height: 60px; /* Adjust as needed */
+      }
+
+      /* Add a black background color to the top navigation */
+      .topnav {
+        background-color: white;
+        overflow: hidden;
+        display: flex;
+        gap: 20px; /* Adds spacing between links */
+      }
+
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #04aa6d;
+        color: white;
+      }
+
+      nav {
+        margin-bottom: 40px;
+      }
+
+      .contact-form {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="topnav">
+          <a href="index.html">Home</a>
+          <a href="sessions.html">Sessions</a>
+          <a class="active" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <div class="contact-form">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfEtvrK59rJ1KXmshU212jRlOiRflt4-Ex7yR4-dr_n99bZfQ/viewform?embedded=true"
+        width="640"
+        height="687"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
+  </body>
+</html>

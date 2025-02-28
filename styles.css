@@ -1,6 +1,13 @@
 #banner {
-  width: 100%; /* Makes the image span the full width */
-  height: auto; /* Keeps the aspect ratio */
+  width:100%; /* Makes the image span the full width */
+  height: auto;  /*Keeps the aspect ratio */
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  #banner {
+    display: none;
+  }
 }
 
 nav {
@@ -42,7 +49,7 @@ nav {
 body {
   line-height: 2.5;
   font-size: 17px;
-  min-width: 530px; /* Ensures the page doesn't shrink too much */
+  /*min-width: 530px;  Ensures the page doesn't shrink too much */
 }
 
 .bio-container {

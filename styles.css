@@ -66,6 +66,13 @@ body {
   height: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  .profile-pic {
+  width: 350px;
+  height: 350px;
+  }
+}
+
 #shinrin-yoku {
   display: flex;
   justify-content: center;

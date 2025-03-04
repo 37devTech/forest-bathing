@@ -6,8 +6,11 @@
 /* If the screen size is 600px wide or less, hide the element */
 @media only screen and (max-width: 600px) {
   #banner {
-    display: none;
-  }
+    /*display: none;*/
+    img {
+      content: url('nature\ banner-mobile.jpg'); 
+    }
+}
 }
 
 nav {
@@ -86,6 +89,7 @@ body {
 .about-sessions {
   display: flex;
   justify-content: center;
+  font-size: 15px;
 }
 
 .services-album {
@@ -137,9 +141,24 @@ footer {
 .contact {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#instagram-icon {
+  width: 40px;
+  height: 40px;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  background-color: rgb(95, 106, 76);
 }

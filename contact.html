@@ -57,6 +57,19 @@
           height: 422px;
         }
       }
+
+      footer {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(95, 106, 76);
+      }
+
+      /* If the screen size is 600px wide or less, hide the element */
+      @media only screen and (max-width: 500px) {
+        footer {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -80,5 +93,6 @@
         >Loading…</iframe
       >
     </div>
+    <footer>&#169; Shonan Shinrin-yoku</footer>
   </body>
 </html>
